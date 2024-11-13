@@ -1,0 +1,23 @@
+.form-input {
+    padding: .6rem;
+    border-radius: .4rem;
+    background-color: whitesmoke;
+    color: black;
+    border: .1rem solid #ababab;
+    width: 100%;
+}
+
+.primary-button {
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+}
+
+.result-container {
+    margin: 1rem 0rem;
+    width: 100%;
+    background-color: antiquewhite;
+    padding: .2rem .6rem;
+    border-radius: .4rem;
+    color: #000;
+}

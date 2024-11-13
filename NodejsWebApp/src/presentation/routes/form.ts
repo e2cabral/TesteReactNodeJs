@@ -1,6 +1,8 @@
 const setFormRoutes = (router) => {
   return router.post('/', (req, res) => {
-      res.send('Hello, World!')
+      const { firstValue, secondValue } = req.body;
+
+      res.send({ sum: Number(firstValue) + Number(secondValue) });
   })
 }
 
